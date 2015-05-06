@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="modone">
+    <head>
+        <title>Oauth demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/angular.min.js"></script>
+        <script src="js/libs/appmodule.js"></script>
+    </head>
+    <body ng-controller="prodctrl as c1">
+        {{val}}
+        {{token}}
+        <button ng-click="c1.sendReq()">Click</button>
+        <button ng-click="c1.sendReq2()">Click2</button>
+    </body>
+</html>
